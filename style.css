@@ -1,0 +1,36 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid green 2px;
+  background-color: black;
+  width: 900px;
+  height: 900px;
+  margin: auto;
+}
+
+.grid div {
+  width: 60px;
+  height: 60px;
+}
+
+.score {
+  text-align: center;
+}
+
+.shooter {
+  content: url("earth.png");
+}
+
+.invader {
+  content: url("MaxInvader.jpg");
+}
+
+.boom {
+  background-color: red;
+  content: url("saltysad.jpg");
+}
+
+.laser::after {
+  content: "🖕";
+  font-size: 60px;
+}
